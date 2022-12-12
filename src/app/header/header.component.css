@@ -1,0 +1,12 @@
+
+header{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgb(147, 165, 42);
+}
+
+header h1{
+    text-transform: capitalize;
+    color: #f4f4f4;
+    letter-spacing: 3px;
+}

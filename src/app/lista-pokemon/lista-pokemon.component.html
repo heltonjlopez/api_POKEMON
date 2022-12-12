@@ -1,0 +1,21 @@
+<div class="pokemon-grid">
+
+  <div class="card text-bg-light text-center" *ngFor="let pokemon of pokemons" style="width: 18rem">
+    <img [src]="pokemon.sprites.front_default" class="card-img-top" alt="pokemon" />
+    <div class="card-body">
+      <h5 class="card-title">{{pokemon.name}}</h5>
+      <p class="card-text">
+        <b>Tipo_ID: </b>{{pokemon.types[0].type.name}}
+      </p>
+      <p class="card-text">
+        <b>Altura/bajo: </b>{{pokemon.height}}
+      </p>
+      <p class="card-text">
+        <b>Peso_libras: </b>{{pokemon.weight}}
+      </p>
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+  </div>
+
+
+</div>
